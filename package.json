@@ -1,0 +1,25 @@
+{
+  "name": "pali-coding-solution",
+  "version": "1.0.0",
+  "description": "Gbolahan Olawuyi solution to pali code challenge",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets=preset-env",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "author": "Gbolahan Olawuyi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.2"
+  }
+}
